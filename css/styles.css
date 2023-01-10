@@ -1,0 +1,50 @@
+.menu{
+    background-color: black;
+    padding: 5px 0;
+    color: white;
+}
+
+.btn1{
+    background-color: #369BA8;
+    border-color: #369BA8;
+    color: white;
+    font-weight: 500;
+    border-radius: 1rem;
+    padding: .75rem 1rem;
+}
+
+.btn2{
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-weight: 500;
+    border-radius: 50px;
+    padding: .75rem 1rem;
+}
+
+.jumbotron{
+    background-color: #bbc6c8;
+    padding: 250px 0;
+}
+
+.blog{
+    background-color: white;
+    padding: 200px 0;
+}
+
+.add{
+    background-color: #bbc6c8;
+    padding: 250px 0;
+}
+
+footer{
+    background-color: black;
+    padding: 150px 0;
+}
+/*
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+*/
