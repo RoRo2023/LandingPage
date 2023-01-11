@@ -120,9 +120,54 @@ h4{
     padding: .75rem 1rem;
 }
 
+/* Blog */
 .blog{
     background-color: white;
-    padding: 200px 0;
+    padding: 100px 0;
+}
+
+.catalogo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+}
+
+.catalogo .card-content{
+    background-color: white;
+    border-color: black;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    border-radius: 0 10px 10px 0;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 8px 0 0;
+    height: 330px;
+    width: 230px;
+}
+
+.card-content ul{
+    padding-left: 15px;
+    line-height: 30px;
+}
+
+.catalogo img{
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
+main ul{
+    list-style: none;
+}
+
+.listing{
+    font-weight: 500;
 }
 
 .add{

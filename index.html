@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
     <header class="menu">
@@ -54,41 +54,58 @@
     </header>
     <main>
         <section class="blog container">
-            <img src="./assets/Viñedos_14_4.jpg" alt="c2" class="casa2" style="width: 300px;">
-            /*Poner símbolos*/
-            <p>
-                Código: MX-RQPS-0932
-                Tipo: Departamento
-                Operacion: Venta
-                Habitaciones: 2
-                Baños completos: 2
-                Medios baños: 2
-                Niveles: 4
-                Estacionamientos: 2
-                Construcción: 239.20 m2
-                Precio: 4,350,000
-            </p>
-            <p>
-                Hermoso departamento vertical para tener la experiencia de vivir en tu propia torre. Cuenta con terraza en el cuarto nivel, con rooftop e inmejorable vista.
-            </p>
-            /*Revisar ortografía*/
-            <img src="./assets/Apartamentos_8_3.jpg" alt="c1" class="casa1" style="width: 300px;">
-            <p>
-                Código: MX-RQPS-0943
-                Tipo: Departamento
-                Operación: Venta
-                Habitaciones: 1
-                Baños completos: 1
-                Medios baños: 0
-                Niveles: 1
-                Estacionamientos: 1
-                Construccion: 79.16 m2
-                Precio: 1,278,000
-            </p>
-            <p> 
-                Precioso departamento céntrico tipo loft, en condominio. Ubicado en el segundo nivel de cuatro que tiene el edificio. Cuenta con elevador y todos los servicios. Cochera techada para un vehículo.
-            </p>
-            /*Revisar ortografía*/
+            <div class="catalogo text">
+                <div class="card">
+                    <div class="c1-img">
+                        <img src="./assets/Viñedos_14_4.jpg" alt="c1" class="casa1" style="height: 330px;">
+                    </div>
+                    <div class="card-content">
+                        <ul>
+                            <li><i class="bi bi-info-circle"></i><span class="listing"> Código: </span class="listing">MX-RQPS-0932</li>
+                            <li><i class="bi bi-info-circle"></i><span class="listing"> Tipo: </span class="listing">Departamento</li>
+                            <li><i class="bi bi-key"></i></i><span class="listing"> Operacion: </span class="listing">Venta</li>
+                            <li><i class="bi bi-door-open"></i><span class="listing"> Habitaciones: </span class="listing">2</li>
+                            <li><i class="bi bi-droplet-fill"></i><span class="listing"> Baños completos: </span class="listing">2</li>
+                            <li><i class="bi bi-droplet-half"></i><span class="listing"> Medios baños: </span class="listing">2</li>
+                            <li><i class="bi bi-building"></i><span class="listing"> Niveles: </span class="listing">4</li>
+                            <li><i class="bi bi-car-front-fill"></i><span class="listing"> Estacionamientos: </span class="listing">2</li>
+                            <li><i class="bi bi-bricks"></i><span class="listing"> Construcción: </span class="listing">239.20 m<sup>2</sup></li>
+                            <li><i class="bi bi-cash-coin"></i><span class="listing"> Precio: </span class="listing">$ 4,350,000</li>
+                        </ul>
+                    </div>
+                    <div class="descripcion" style="display: none;">
+                        <p>
+                            Hermoso departamento vertical para tener la experiencia de vivir en tu propia torre. Cuenta con terraza en el cuarto nivel, con rooftop e inmejorable vista.
+                        </p>
+                        <button class="btn1">Mas información</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="c2-img">
+                        <img src="./assets/Apartamentos_8_3.jpg" alt="c2" class="casa2" style="height: 330px;">
+                    </div>
+                    <div class="card-content">
+                        <ul>
+                            <li><i class="bi bi-info-circle"></i><span class="listing"> Código: </span class="listing">MX-RQPS-0943</li>
+                            <li><i class="bi bi-info-circle"></i><span class="listing"> Tipo: </span class="listing">Departamento</li>
+                            <li><i class="bi bi-key"></i></i><span class="listing"> Operacion: </span class="listing">Venta</li>
+                            <li><i class="bi bi-door-open"></i><span class="listing"> Habitaciones: </span class="listing">1</li>
+                            <li><i class="bi bi-droplet-fill"></i><span class="listing"> Baños completos: </span class="listing">1</li>
+                            <li><i class="bi bi-droplet-half"></i><span class="listing"> Medios baños: </span class="listing">0</li>
+                            <li><i class="bi bi-building"></i><span class="listing"> Niveles: </span class="listing">1</li>
+                            <li><i class="bi bi-car-front-fill"></i><span class="listing"> Estacionamientos: </span class="listing">1</li>
+                            <li><i class="bi bi-bricks"></i><span class="listing"> Construcción: </span class="listing">79.16 m<sup>2</sup></li>
+                            <li><i class="bi bi-cash-coin"></i><span class="listing"> Precio: </span class="listing">$ 1,278,000</li>
+                        </ul>
+                    </div>
+                    <div class="descripcion" style="display: none;">
+                        <p> 
+                            Precioso departamento céntrico tipo loft, en condominio. Ubicado en el segundo nivel de cuatro que tiene el edificio. Cuenta con elevador y todos los servicios. Cochera techada para un vehículo.
+                        </p>
+                        <button class="btn1">Mas información</button>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="add">
             <nav class="container">
