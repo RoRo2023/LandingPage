@@ -83,7 +83,6 @@ header a{
 }
 
 .jumbotron-content{
-    /* margin: 0 20px 0 170px; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -170,13 +169,47 @@ main ul{
     font-weight: 500;
 }
 
+/*Adicionales*/
 .add{
     background-color: #bbc6c8;
-    padding: 250px 0;
 }
 
+.add nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.add img{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.add-content{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-self: flex-end;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto 0 0;
+    gap: 20px;
+}
+
+.add-content p{
+    font-weight: 500;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+/*footer*/
 footer{
     background-color: black;
     padding: 150px 0;
     color: white;
 }
+
+
