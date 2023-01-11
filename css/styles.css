@@ -77,13 +77,21 @@ header a{
 
 .jumbotron-img{
     width: max-content;
-}
-
-.jumbotron-content{
-    margin: 0 20px 0 170px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.jumbotron-content{
+    /* margin: 0 20px 0 170px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: flex-end;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 0 0 auto;
 }
 
 .jumbotron-content p{
