@@ -26,6 +26,12 @@ input{
     width: 270px;
 }
 
+a{
+    text-decoration: none;
+    color: #efefef;
+}
+
+
 /*Menu*/
 .menu{
     background-color: black;
@@ -53,11 +59,6 @@ header nav ul {
     gap: 40px;
     list-style: none;
     white-space: nowrap;
-}
-
-header a{
-    text-decoration: none;
-    color: #efefef;
 }
 
 .logo{
@@ -208,8 +209,47 @@ main ul{
 /*footer*/
 footer{
     background-color: black;
-    padding: 150px 0;
+    padding: 30px 0;
     color: white;
 }
 
+footer nav{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
 
+.redes-sociales{
+    display: flex;
+}
+
+.link-container{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+}
+
+dt{
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 20px 0;
+}
+
+dd{
+    margin-inline-start: 0;
+    font-size: 16px;
+    padding: 3px 0 15px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 200;
+    border-color: rgb(170, 170, 170);
+    border-top-style: solid;
+    border-top-width: 1px;
+    max-width: 1170px;
+    width: 100%;
+    margin: 50px auto 0;
+    padding-top: 30px;
+}
