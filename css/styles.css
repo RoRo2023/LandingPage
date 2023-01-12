@@ -122,8 +122,8 @@ h4{
 
 /* Blog */
 .blog{
-    background-color: white;
-    padding: 100px 0;
+    padding: 100px 0; 
+    position: relative; 
 }
 
 .catalogo{
@@ -168,6 +168,86 @@ main ul{
 
 .listing{
     font-weight: 500;
+}
+
+.card1{
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+.card2{
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.c1_img{
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px 0 0 10px;
+}
+
+.c1-img:hover > .descripcion1{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.c1-img:hover > .casa1{
+    opacity: 75%;
+}
+
+.c2_img{
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px 0 0 10px;
+}
+
+.c2-img:hover > .descripcion2{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.c2-img:hover > .casa2{
+    opacity: 75%;
+}
+
+.descripcion1{
+    color: black;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    width: 300px;
+    padding: 15px;
+    position: absolute;
+    bottom: 13px;
+    left: 10px;
+    right: 10px;
+    opacity: 0; 
+    transform: translateY(100%); 
+}
+
+.descripcion2{
+    color: black;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    width: 300px;
+    padding: 15px;
+    position: absolute;
+    bottom: 13px;
+    left: 10px;
+    right: 10px;
+    opacity: 0; 
+    transform: translateY(100%); 
+}
+
+.next{
+    color: rgb(114, 114, 114);
+    position: absolute;
+    right: -80px;
+    top: 200px;
+}
+
+.next:hover{
+    color: #369BA8;
 }
 
 /*Adicionales*/
